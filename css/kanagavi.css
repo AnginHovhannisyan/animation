@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: black;
+}
+.fon{
+	width: 651px;
+	height: 449px;
+	margin: 75px auto;
+	z-index: 10;
+}
+
+.blackDiv{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+    top: 449px;
+}
+
+.black{
+	width: 350px;
+    height: 449px;
+    background: black;
+    position: relative;
+    top: 524px;
+    z-index: 2000;
+}
+
+.blackBottom{
+	width: 100%;
+    height: 449px;
+    background: black;
+    position: relative;
+    top: 973px;
+    z-index: 1001;
+}
+
+.bigWave{
+	position: relative;
+    bottom: 512px;
+    right: 155px;
+    z-index: 90;
+    animation: bigWave 4s linear infinite;
+}
+
+.bigWave img{
+    width: 709px;
+    height: 508px;
+}
+
+@keyframes bigWave{
+	0%{
+		right: 0;
+	}
+
+	50%{
+		right: 30px;
+	}
+
+	100%{
+		right: 0;
+	}
+}
+
+.wave{
+	position: relative;
+    bottom: 917px;
+    animation: wave 4s linear  infinite;
+
+}
+
+.wave img{	
+    width: 664px;
+    height: 430px;
+}
+
+@keyframes wave{
+	0%{
+		right: 366px;
+/*		bottom: 917px;*/
+		transform: rotate(18deg);
+	}
+
+	60%{
+		right: 0px;
+		bottom: 900px;
+	}
+
+	75%{
+		right: 0px;
+/*		bottom: 0;*/
+	}
+
+	90%{
+		right: 0px;
+    	bottom: 500px;
+	}
+
+	100%{
+	    right: 0px;
+    	bottom: 0px;
+	}
+}
+
+.sar{
+	transform: rotate(355deg);
+    position: relative;
+    bottom: 1598px;
+    right: 142px;
+    animation: sar 4s linear infinite;
+}
+
+.sar img{
+	width: 609px;
+    height: 663px;
+}
+
+@keyframes sar{
+	0%{
+
+	}
+
+	50%{
+	    bottom: 1542px;
+	}
+
+	100%{
+		bottom: 1598px;
+	}
+}
+.wave2{
+	position: relative;
+	bottom: 2040px;
+    left: -2px;
+    z-index: 50;
+    animation: wave2 4s linear infinite;
+}
+
+.wave2 img{
+	width: 653px;
+    height: 414px;
+}
+
+@keyframes wave2{
+	0%, 100%{
+		bottom: 2040px;
+	}
+
+	25%, 50%{
+		bottom: 2050px;
+	}
+}
+
+
+.wave3{
+	width: 651px;
+	height: 350px;
+	position: relative;
+    bottom: 469px;
+    left: 348px;
+    animation: wave3 4s linear  infinite;
+}
+
+.wave3 img{
+	width: 662px;
+}
+
+@keyframes wave3{
+	0%{
+		left: 100px;
+		transform: rotate(15deg);
+	}
+
+	60%{
+		left: 344px;
+		bottom: 400px;
+	}
+
+	90%{
+		left: 344px;
+	}
+
+	100%{
+		bottom: 0;
+	}
+}
+
+.wave4{
+	position: relative;
+    bottom: 893px;
+    left: 350px;
+    z-index: 800;
+    animation: wave4 3s linear infinite;
+}
+
+.wave4 img{
+	width: 650px;
+}
+
+@keyframes wave4{
+	0%{
+		left: 57px;
+/*    	bottom: 928px;*/
+	}
+
+	/*25%{
+		left: 257px;
+	}
+
+	50%{
+		left: 315px;
+		bottom: 900px;
+		transform: rotateZ(22deg);
+	}
+*/
+
+	100%{
+
+		bottom: 0;
+	}
+}
+
+.nav{
+	position: relative;
+    bottom: 954px;
+    left: 453px;
+    animation: nav 4s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+.nav img{
+	width: 579px;
+    height: 531px;
+}
+
+@keyframes nav{
+	0%{
+	    transform: rotate(-45deg);
+	    bottom: 1175px;
+    	left: 384px;
+	}
+
+	100%{
+
+	}
+}
+
+
